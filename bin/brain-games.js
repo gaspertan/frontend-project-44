@@ -1,9 +1,6 @@
 #!/usr/bin/env node
-
-import readlineSync from 'readline-sync';
-
 console.log('Welcome to the Brain Games!');
 
-const name = readlineSync.question('Your answer: ');
+import { myFunction } from './src/cli.js';
 
-console.log(`hello, ${name}!`);
+myFunction();
