@@ -8,10 +8,6 @@ brain-even:
 
 	node bin/brain-even.js
 
-brain-progression:
-
-    node bin/brain-progression.js
-	
 brain-calc:
 
 	node bin/brain-calc.js
@@ -25,3 +21,7 @@ publish:
 
 make lint:
 	npx eslint .
+
+brain-progression:
+	node bin/brain-progression.js
+	
