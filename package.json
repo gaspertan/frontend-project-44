@@ -1,48 +1,28 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js",
-    "brain-prime": "bin/brain-prime.js"
-  },
-  "description": "[![Actions Status](https://github.com/gaspertan/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/gaspertan/frontend-project-44/actions)",
-  "main": "index.js",
+  "description": "Brain-games",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gaspertan/frontend-project-44.git"
-  },
-  "author": "",
+  "type": "module",
+  "author": "TominVadim",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gaspertan/frontend-project-44/issues"
+  "bin": {
+    "brain-games": "./bin/brain-games.js",
+    "brain-even": "./bin/brain-even.js",
+    "brain-calc": "./bin/brain-calc.js",
+    "brain-gcd": "./bin/brain-gcd.js",
+    "brain-progression": "./bin/brain-progression.js",
+    "brain-prime": "./bin/brain-prime.js"
   },
-  "homepage": "https://github.com/gaspertan/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.0.2",
-    "@eslint/js": "^9.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.19.0",
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
+    "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-standard-with-typescript": "^43.0.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "globals": "^15.0.0",
-    "typescript": "^5.3.3"
+    "eslint-plugin-import": "^2.29.1"
   }
 }
